@@ -96,7 +96,12 @@ This robot uses a **Split-Power Island** design.
 
 ---
 
-## ⚠️ Important Safety & Maintenance
+⚠️ Important Safety & Maintenance
+Phantom Drain Warning: The Left Battery (Battery A) is connected directly to the motor driver. Even when the robot is "Off", the driver consumes small amounts of power. ALWAYS unplug Battery A when not in use, or the battery will be destroyed.
 
-1.  **Phantom Drain Warning:** The Left Battery (Battery A) is connected directly to the motor driver. Even when the robot is "Off", the driver consumes power. **ALWAYS unplug Battery A when not in use**, or the battery will be destroyed.
-2.  **Mobile Data:** If the app fails to connect ("Socket Timeout"), ensure **Mobile Data is turned OFF** on your phone.
+Mobile Data: If the app fails to connect ("Socket Timeout"), ensure Mobile Data is turned OFF on your phone.
+
+Heat Check: After aggressive driving, check the black heatsinks on the L298N drivers. Warm is okay; too hot to touch means you need a break.
+
+🤝 Contributing
+Feel free to fork this project and add features like Speed Control (PWM) or Obstacle Avoidance sensors!
