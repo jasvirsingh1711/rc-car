@@ -66,13 +66,33 @@ This robot uses a **Split-Power Island** design.
 
 ## Software Setup
 
-1.  **Install Arduino IDE:** [Download here](https://www.arduino.cc/en/software).
-2.  **Install ESP8266 Board Manager:**
-    * Go to *File > Preferences*.
-    * In "Additional Board Manager URLs", add: `http://arduino.esp8266.com/stable/package_esp8266com_index.json`
-    * Go to *Tools > Board > Boards Manager*, search for **esp8266**, and install.
-3.  **Select Board:** Tools > Board > **NodeMCU 1.0 (ESP-12E Module)**.
-4.  **Upload Code:** Copy the code from `code.cpp` and upload.
+### Option 2: PlatformIO
+
+1.  **Install PlatformIO:**
+    * **VS Code:** Install the [PlatformIO IDE extension](https://platformio.org/install/ide?install=vscode) from the Extensions marketplace.
+
+2.  **Create New Project:**
+    * Click on **"New Project"** in the PlatformIO home screen.
+    ![New Project Button](Platform.io\1.png)
+
+3.  **Configure Project:**
+    * **Board:** Select **"NodeMCU 1.0 (ESP-12E Module)"** (ESP8266-based board).
+    * Click **"Finish"**.
+    ![Board Selection](Platform.io\2.png)
+    * **Note:** First-time users may experience a brief setup delay. Please be patient while PlatformIO downloads the necessary tools and frameworks.
+
+4.  **Add Your Code:**
+    * Copy the entire contents of `Code/main.cpp` from this repository.
+    * Paste it into `src/main.cpp` in your PlatformIO project (replacing any existing code).
+
+5.  **Build and Upload:**
+    * Click the **✓ (checkmark)** icon to build the project.
+    * Click the **→ (arrow)** button to upload the code to your NodeMCU.
+    ![Build and Upload Buttons](Platform.io\3.png)
+
+6.  **Connect to Robot:**
+    * After the code uploads successfully, the Wi-Fi server will automatically start.
+    * You can now proceed to configure your mobile device (see App Configuration section below).
 
 ---
 
