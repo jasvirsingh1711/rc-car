@@ -73,12 +73,12 @@ This robot uses a **Split-Power Island** design.
 
 2.  **Create New Project:**
     * Click on **"New Project"** in the PlatformIO home screen.
-    ![New Project Button](Platform.io\1.png)
+    ![New Project Button](Platform.io/1.png)
 
 3.  **Configure Project:**
     * **Board:** Select **"NodeMCU 1.0 (ESP-12E Module)"** (ESP8266-based board).
     * Click **"Finish"**.
-    ![Board Selection](Platform.io\2.png)
+    ![Board Selection](Platform.io/2.png)
     * **Note:** First-time users may experience a brief setup delay. Please be patient while PlatformIO downloads the necessary tools and frameworks.
 
 4.  **Add Your Code:**
@@ -88,7 +88,7 @@ This robot uses a **Split-Power Island** design.
 5.  **Build and Upload:**
     * Click the **✓ (checkmark)** icon to build the project.
     * Click the **→ (arrow)** button to upload the code to your NodeMCU.
-    ![Build and Upload Buttons](Platform.io\3.png)
+    ![Build and Upload Buttons](Platform.io/3.png)
 
 6.  **Connect to Robot:**
     * After the code uploads successfully, the Wi-Fi server will automatically start.
